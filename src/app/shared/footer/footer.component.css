@@ -1,0 +1,112 @@
+/* Layout w5d89139ccd63a */#pgc-w5d89139ccd63a-0-0
+{
+    width: 100%;
+    width: calc(100% - ( 0 * 30px ) );
+}
+#pl-w5d89139ccd63a #panel-w5d89139ccd63a-0-0-0, #pl-w5d89139ccd63a #panel-w5d89139ccd63a-1-0-0, #pl-w5d89139ccd63a #panel-w5d89139ccd63a-1-1-0
+{
+}
+#pg-w5d89139ccd63a-0, #pl-w5d89139ccd63a .so-panel
+{
+    margin-bottom: 30px;
+}
+#pgc-w5d89139ccd63a-1-0, #pgc-w5d89139ccd63a-1-1
+{
+    width: 50%;
+    width: calc(50% - ( 0.5 * 30px ) );
+}
+#pl-w5d89139ccd63a .so-panel:last-child
+{
+    margin-bottom: 0px;
+}
+#pg-w5d89139ccd63a-0.panel-no-style, #pg-w5d89139ccd63a-0.panel-has-style > .panel-row-style, #pg-w5d89139ccd63a-1.panel-no-style, #pg-w5d89139ccd63a-1.panel-has-style > .panel-row-style
+{
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+@media (max-width:780px)
+{
+    #pg-w5d89139ccd63a-0.panel-no-style, #pg-w5d89139ccd63a-0.panel-has-style > .panel-row-style, #pg-w5d89139ccd63a-1.panel-no-style, #pg-w5d89139ccd63a-1.panel-has-style > .panel-row-style
+    {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #pg-w5d89139ccd63a-0 > .panel-grid-cell, #pg-w5d89139ccd63a-0 > .panel-row-style > .panel-grid-cell, #pg-w5d89139ccd63a-1 > .panel-grid-cell, #pg-w5d89139ccd63a-1 > .panel-row-style > .panel-grid-cell
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+    #pgc-w5d89139ccd63a-1-0
+    {
+        margin-bottom: 30px;
+    }
+    #pl-w5d89139ccd63a .panel-grid-cell
+    {
+        padding: 0;
+    }
+    #pl-w5d89139ccd63a .panel-grid .panel-grid-cell-empty
+    {
+        display: none;
+    }
+    #pl-w5d89139ccd63a .panel-grid .panel-grid-cell-mobile-last
+    {
+        margin-bottom: 0px;
+    }
+}
+/* Layout w5c7aec136c5b3 */#pgc-w5c7aec136c5b3-0-0
+{
+    width: 65.0187%;
+    width: calc(65.0187% - ( 0.349813432836 * 30px ) );
+}
+#pl-w5c7aec136c5b3 #panel-w5c7aec136c5b3-0-0-0, #pl-w5c7aec136c5b3 #panel-w5c7aec136c5b3-0-1-0
+{
+}
+#pgc-w5c7aec136c5b3-0-1
+{
+    width: 34.9813%;
+    width: calc(34.9813% - ( 0.650186567164 * 30px ) );
+}
+#pl-w5c7aec136c5b3 .so-panel
+{
+    margin-bottom: 30px;
+}
+#pl-w5c7aec136c5b3 .so-panel:last-child
+{
+    margin-bottom: 0px;
+}
+#pg-w5c7aec136c5b3-0.panel-no-style, #pg-w5c7aec136c5b3-0.panel-has-style > .panel-row-style
+{
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+@media (max-width:780px)
+{
+    #pg-w5c7aec136c5b3-0.panel-no-style, #pg-w5c7aec136c5b3-0.panel-has-style > .panel-row-style
+    {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #pg-w5c7aec136c5b3-0 > .panel-grid-cell, #pg-w5c7aec136c5b3-0 > .panel-row-style > .panel-grid-cell
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+    #pgc-w5c7aec136c5b3-0-0
+    {
+        margin-bottom: 30px;
+    }
+    #pl-w5c7aec136c5b3 .panel-grid-cell
+    {
+        padding: 0;
+    }
+    #pl-w5c7aec136c5b3 .panel-grid .panel-grid-cell-empty
+    {
+        display: none;
+    }
+    #pl-w5c7aec136c5b3 .panel-grid .panel-grid-cell-mobile-last
+    {
+        margin-bottom: 0px;
+    }
+}

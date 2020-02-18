@@ -1,4 +1,4 @@
-<header id="site-header">
+<header id="site-header" *ngIf="false">
     <div class="hamburguernew" style="display: none; width: 30px; height: 30px; background-position: center center; background-repeat: no-repeat;background-size: contain; position: absolute; left: 20px; top: 18px; z-index: 999;">
         <a href="index.html" style="padding:5px;">
             <span class="fa fa-sign-in" style="font-size:20px;"></span>
@@ -29,3 +29,46 @@
         </div>
     </div>
 </header>
+
+<header id="site-header">
+        <div class="hamburguer"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 logo-col">
+                    <a href="https://www.revenued.com" id="logo">
+                        <span class="screen-reader-text">Revenued</span>
+                    </a>
+                </div>
+                <div class="col-md-7 logo-col logo-col-disp" style="text-align:center;"></div>
+                <div class="col-md-3 menu-2-col">
+                    <div class="menu-top-menu-right-container dropdown" style="padding-top:25px;">
+
+
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-lg-3">
+                                <a style="padding:5px;cursor:pointer !important;">
+                                    <span class="fa fa-user-circle-o" style="font-size:24px;"></span>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="ManageAccount.html" style="float:left; font-size:14px;padding:5px; width:100%">
+                                        <span class="fa fa-user-circle-o" style="font-size:20px;"></span>&nbsp;&nbsp;Profile</a>
+                                    <a href="ManageAccount.html" style="float:left;padding:5px; width:100%">
+                                        <span class="fa fa-user" style="font-size:20px;"></span>&nbsp;&nbsp;Manage Account</a>
+                                    <a href="index.html" style="float:left;padding:5px; width:100%">
+                                        <span class="fa fa-sign-out" style="font-size:20px;"></span>&nbsp;&nbsp;Sign Out</a>
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-lg-9" style="padding-right:0px !important; direction:rtl; text-align:start;">
+                                !Welcome John
+                                <div class="col-md-12 col-sm-12 col-lg-12" style="padding-right:0px !important; direction:rtl; text-align:start;font-size:11px;">Member Since
+                                    <br />Mar'2020
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

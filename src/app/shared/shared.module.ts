@@ -4,15 +4,17 @@ import { HeaderComponent } from './header/header.component';
 import { MainareaComponent } from './mainarea/mainarea.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, MainareaComponent, LoginComponent],
+  declarations: [HeaderComponent, MainareaComponent, LoginComponent,
+    FooterComponent],
   imports: [
     CommonModule,
     RouterModule.forRoot([])
   ],
-  exports:[HeaderComponent,MainareaComponent]
+  exports:[HeaderComponent,MainareaComponent,FooterComponent]
 })
 export class SharedModule { }
