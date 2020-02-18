@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { MainareaComponent } from './mainarea/mainarea.component';
 import { LoginComponent } from './login/login.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [HeaderComponent, MainareaComponent, LoginComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forRoot([])
   ],
   exports:[HeaderComponent,MainareaComponent]
 })
