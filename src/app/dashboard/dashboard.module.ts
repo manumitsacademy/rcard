@@ -6,13 +6,15 @@ import { DashboardComponent } from './dashboard.component';
 import { ShortcutsComponent } from './shortcuts/shortcuts.component';
 import { AccountsummaryComponent } from './accountsummary/accountsummary.component';
 import { MinistatementComponent } from './ministatement/ministatement.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
   declarations: [DashboardComponent, ShortcutsComponent, AccountsummaryComponent, MinistatementComponent],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    SharedModule
   ]
 })
 export class DashboardModule { }

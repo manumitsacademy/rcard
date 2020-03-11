@@ -13,7 +13,7 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent],
   imports: [
     CommonModule,
-    RouterModule.forRoot([])
+    RouterModule.forChild([])
   ],
   exports:[HeaderComponent,MainareaComponent,FooterComponent]
 })
