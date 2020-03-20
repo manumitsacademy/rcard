@@ -1,9 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat&display=swap');
-#logo h1{
+/*#logo h1{
   display:inline-block;
   font-family: Montserrat;
-  font-size:30px;
+  font-size:1.4rem;
   font-weight:bold;
   color:white;
-  padding:10px 40px 0px 10px;
+  padding:10px 40px 0px 0px;
+  
+}*/
+#main_logo{
+  background-color: rgb(182, 248, 226);
+  
+  
+}
+
+.fa-bell-o{
+  position: relative;
+  font-size:1.6rem;
+}
+.fa-circle{
+  position: absolute;
+  margin-left:-12px;
+  color:red;
+  font-size:0.8rem;
+}
+#main_logo p{
+  display:inline-block;
+  margin-left:2%;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: 600;
+ 
+ 
+}
+
+#main_logo img{
+  width:1.9rem;
+ 
+}
+
+
+#main_logo .dropdown-toggle::after{
+  border:none;
+}
+
+
+#main_logo .navbar-brand span{
+  font-size:1.4rem;
+}
+#main_logo a{
+  text-decoration: none;
+  color:black;
 }

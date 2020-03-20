@@ -1,13 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat&display=swap');
-#logo h1{
-  display:inline-block;
-  font-family: Montserrat;
-  font-size:30px;
-  font-weight:bold;
-  color:white;
-  padding:10px 40px 0px 10px;
+
+#login_page .row{
+  height: 100%;
 }
-#slogan h1{
-  font-family:Lato;
-  font-size:40px;
+#login_page .col-md-6{
+ 
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+  
+  
+    
+}
+#login_page .left_col .logohead{
+ 
+  text-decoration: none;
+  color:white;
+  font-size:1.3rem;
+
+  
+}
+
+#login_page footer a{
+  text-decoration: none;
+  color:white;
+  font-size:0.7rem;
+}
+#login_page .right_col .right_col_head{
+  margin-top:25%;
+  margin-bottom:15%;
+}
+input,
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#login_page .form-control{
+  height:2%;
 }

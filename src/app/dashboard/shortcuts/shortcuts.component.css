@@ -1,0 +1,51 @@
+#short_cut{
+    background-color: #0074b6ff;
+    
+}
+/*#short_cut:after{
+    background: 
+                linear-gradient(-45deg, transparent 20px, #0074b6ff 0), 
+                linear-gradient(45deg, transparent 20px, #0074b6ff  0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 30px 20px;
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 32px;
+
+     position: relative;
+    top:47%;
+    left:0px;
+    border:none;
+  
+}
+*/
+#short_cut nav{
+    flex-wrap:nowrap;
+}
+#short_cut .nav-pills .nav-link{
+    color:white;
+    font-size:1rem;
+}
+#short_cut .nav-pills .nav-link.active{
+    color:white;
+    font-weight:500;
+    background-color: rgb(255, 255, 255, 0.3);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+#short_cut .nav-pills .nav-link:hover{
+    color:white;
+    background-color: rgb(255, 255, 255, 0.3);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+#short_cut .nav-link{
+    padding:0.5rem 0.5rem;
+}
