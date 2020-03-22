@@ -1,0 +1,45 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <PCBFGatewayGetAppStatusResponse xmlns="pcbfServices/PCBFGateway">
+         <PCBFAppStatus>
+            <extAppId>1231</extAppId>
+            <pcbfAppId>E66D6D624924S2</pcbfAppId>
+            <leName>Alvatel Inc</leName>
+            <submitDate>03/02/2020 20:21:24.857</submitDate>
+            <offerDate>01/06/2020 21:24:19.000</offerDate>
+            <lastStage>
+               <extAppId>0063g000002aSBvAAM</extAppId>
+               <pcbfAppId>E66D6D624924E2E5</pcbfAppId>
+               <sysDate>01/06/2020 21:24:20.000</sysDate>
+               <stage>asOfferSent</stage>
+            </lastStage>
+         </PCBFAppStatus>
+         <PCBFAppStatus>
+            <extAppId>3465</extAppId>
+            <pcbfAppId>ASD243534IUO34</pcbfAppId>
+            <leName>SilverKey Ltd</leName>
+            <submitDate>05/06/2020 20:21:24.857</submitDate>
+            <offerDate>01/06/2020 21:24:19.000</offerDate>
+            <lastStage>
+               <pcbfAppId>E66D6D624924E2E5</pcbfAppId>
+               <sysDate>01/06/2020 21:24:20.000</sysDate>
+               <stage>asOfferSent</stage>
+            </lastStage>
+            <NEWDATA>123213</NEWDATA>
+         </PCBFAppStatus>
+         <PCBFAppStatus>
+            <extAppId>9987</extAppId>
+            <pcbfAppId>POOIWER2343O</pcbfAppId>
+            <leName>Amazon</leName>
+            <submitDate>08/07/2020 20:21:24.857</submitDate>
+            <offerDate>01/06/2020 21:24:19.000</offerDate>
+            <lastStage>
+               <extAppId>0063g000002aSBvAAM</extAppId>
+               <pcbfAppId>E66D6D624924E2E5</pcbfAppId>
+               <sysDate>01/06/2020 21:24:20.000</sysDate>
+               <stage>asOfferSent</stage>
+            </lastStage>
+         </PCBFAppStatus>
+      </PCBFGatewayGetAppStatusResponse>
+   </soap:Body>
+</soap:Envelope>

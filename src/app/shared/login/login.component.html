@@ -45,14 +45,14 @@
     </div>
 </div>
 -->
-<section id="login_page">
+<section id="login_page" style="height:100%">
     <div class="row no-gutters" >
-        <div class="col-md-6 bg-primary flex-column  text-white">
+        <div class="col-md-6 flex-column  text-white" style="background-color: #3075bf;">
             <div class="left_col w-50 mt-5 align-self-center" >
                
                 <a class="navbar-brand logohead mb-5" href="#" >
                     <img src="/assets/logo_white.png" width="35" height="35" class="d-inline-block align-top" alt="">
-                    <span class="ml-2">Revenued</span>
+                    <span class="ml-2" style="font-family:Montserrat">Revenued</span>
                 </a>
                
                 <h1>Business Card for this Generation.</h1>
@@ -61,25 +61,17 @@
                
            
             </div>
-            <footer class="border-top w-50 align-self-center ">
-               
+            <footer class="border-top w-50 align-self-center ">               
                     <nav class="navbar navbar-expand-lg px-0 ">
-                        
-                        
-                      
-                          <ul class="navbar-nav text-uppercase">
-                           
+                          <ul class="navbar-nav text-uppercase">                           
                             <li class="nav-item">
                               <a class="nav-link" href="#">About Revenued</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Contact us</a>
-                            </li>
-                            
-                          </ul>
-                       
+                            </li>                            
+                          </ul>                       
                       </nav>
-               
             </footer>
            
         </div>
@@ -98,8 +90,7 @@
                 </form> 
                  <p class="text-right"><small><a href="#">Forgot Password?</a></small></p>
                  <div class="text-center">
-                     <button type="button" class="btn btn-warning btn-xl w-50 btn-center">Login</button>
-                     <p class="text-primary"><small>Not a member? <a href="#">Sign Up</a></small></p>
+                     <button type="button" class="btn btn-xl w-50 btn-center" (click)="authService.login()" style="background-color: #ce6b20;">Login</button>
                 </div>
             </div>
         </div>

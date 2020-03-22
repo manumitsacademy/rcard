@@ -1,4 +1,21 @@
-.widget-title{
-    color:#7c7b7b;
-    font-family: "gotham book";
+
+*{
+    font-family: Lato;
+    font-weight:bold;
 }
+#summaryheading h5{
+        height: 19px;
+        color: #1F74B1;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 19px;
+}
+.spending-l-imit {
+    width: 95px;
+    color: #90A2B1;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+  }

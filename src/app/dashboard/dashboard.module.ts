@@ -7,6 +7,7 @@ import { ShortcutsComponent } from './shortcuts/shortcuts.component';
 import { AccountsummaryComponent } from './accountsummary/accountsummary.component';
 import { MinistatementComponent } from './ministatement/ministatement.component';
 import { SharedModule } from '../shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    SharedModule
+    SharedModule,
+    HttpClientModule
   ]
 })
 export class DashboardModule { }

@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\r\n<!--\r\n<div class=\"row\" style=\"height:100%\">\r\n    <div class=\"col-lg-6 col-md-6\" style=\"background-color: blueviolet; padding:100px 200px 200px 250px ;\">\r\n        <div id=\"logo\" style=\"display:flex;align-items:center\">\r\n            <div><img src=\"/assets/logo_white.png\" style=\"width:80%\"></div>            \r\n            <div><h1>Revenued</h1></div>\r\n        </div>\r\n        <div id=\"slogan\">\r\n            <h1>Business Card for</h1>\r\n            <h1>this Generation</h1>\r\n            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>\r\n        </div>\r\n        <footer>\r\n            <span>ABOUT REVENUED</span>\r\n            <SPAN>CONTACT US</SPAN>\r\n        </footer>\r\n    </div>\r\n    <div class=\"col-lg-6 col-md-6\">\r\n        <div id=\"logindiv\">\r\n            <div>\r\n                <h1>Welcome to Revenued</h1>\r\n                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>\r\n            </div>\r\n            <div>\r\n                    <DIV>\r\n                        <div class=\"form-group\">\r\n                          <label for=\"email\">Email address:</label>\r\n                          <input type=\"email\" class=\"form-control\" placeholder=\"Enter email\" id=\"email\">\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                          <label for=\"pwd\">Password:</label>\r\n                          <input type=\"password\" class=\"form-control\" placeholder=\"Enter password\" id=\"pwd\">\r\n                        </div>\r\n                        <div class=\"form-group form-check\">\r\n                          <label class=\"form-check-label\">\r\n                            Forgot password\r\n                          </label>\r\n                        </div>\r\n                        <a routerLink=\"/dashboard\" type=\"submit\" class=\"btn btn-primary\">Submit</a>\r\n                        <span>Not a member? Sign Up</span>\r\n                    </DIV>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n-->\r\n<section id=\"login_page\">\r\n    <div class=\"row no-gutters\" >\r\n        <div class=\"col-md-6 bg-primary flex-column  text-white\">\r\n            <div class=\"left_col w-50 mt-5 align-self-center\" >\r\n               \r\n                <a class=\"navbar-brand logohead mb-5\" href=\"#\" >\r\n                    <img src=\"/assets/logo_white.png\" width=\"35\" height=\"35\" class=\"d-inline-block align-top\" alt=\"\">\r\n                    <span class=\"ml-2\">Revenued</span>\r\n                </a>\r\n               \r\n                <h1>Business Card for this Generation.</h1>\r\n                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate?</p>\r\n                \r\n               \r\n           \r\n            </div>\r\n            <footer class=\"border-top w-50 align-self-center \">\r\n               \r\n                    <nav class=\"navbar navbar-expand-lg px-0 \">\r\n                        \r\n                        \r\n                      \r\n                          <ul class=\"navbar-nav text-uppercase\">\r\n                           \r\n                            <li class=\"nav-item\">\r\n                              <a class=\"nav-link\" href=\"#\">About Revenued</a>\r\n                            </li>\r\n                            <li class=\"nav-item\">\r\n                              <a class=\"nav-link\" href=\"#\">Contact us</a>\r\n                            </li>\r\n                            \r\n                          </ul>\r\n                       \r\n                      </nav>\r\n               \r\n            </footer>\r\n           \r\n        </div>\r\n        <div class=\"col-md-6 justify-content-center\">\r\n            <div class=\"right_col w-50 \">\r\n                <div class=\"right_col_head\">\r\n                <h3>Welcome to <span class=\"text-primary\">Revenued</span></h3>\r\n                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae quod facilis pariatur dolorem vero?</p>\r\n                </div>\r\n                <form action=\"\" >\r\n                    <label for=\"email\" class=\"text-muted\">Email</label>\r\n                    <input type=\"text\" class=\"form-control p-0 mb-3\" placeholder=\"Enter Email ID\">\r\n                    <label for=\"password\">Password</label>\r\n                    <input type=\"password\" class=\"form-control p-0\" placeholder=\"Enter Password\">\r\n                    \r\n                </form> \r\n                 <p class=\"text-right\"><small><a href=\"#\">Forgot Password?</a></small></p>\r\n                 <div class=\"text-center\">\r\n                     <button type=\"button\" class=\"btn btn-warning btn-xl w-50 btn-center\">Login</button>\r\n                     <p class=\"text-primary\"><small>Not a member? <a href=\"#\">Sign Up</a></small></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>";
+    __webpack_exports__["default"] = "\r\n<!--\r\n<div class=\"row\" style=\"height:100%\">\r\n    <div class=\"col-lg-6 col-md-6\" style=\"background-color: blueviolet; padding:100px 200px 200px 250px ;\">\r\n        <div id=\"logo\" style=\"display:flex;align-items:center\">\r\n            <div><img src=\"/assets/logo_white.png\" style=\"width:80%\"></div>            \r\n            <div><h1>Revenued</h1></div>\r\n        </div>\r\n        <div id=\"slogan\">\r\n            <h1>Business Card for</h1>\r\n            <h1>this Generation</h1>\r\n            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>\r\n        </div>\r\n        <footer>\r\n            <span>ABOUT REVENUED</span>\r\n            <SPAN>CONTACT US</SPAN>\r\n        </footer>\r\n    </div>\r\n    <div class=\"col-lg-6 col-md-6\">\r\n        <div id=\"logindiv\">\r\n            <div>\r\n                <h1>Welcome to Revenued</h1>\r\n                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>\r\n            </div>\r\n            <div>\r\n                    <DIV>\r\n                        <div class=\"form-group\">\r\n                          <label for=\"email\">Email address:</label>\r\n                          <input type=\"email\" class=\"form-control\" placeholder=\"Enter email\" id=\"email\">\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                          <label for=\"pwd\">Password:</label>\r\n                          <input type=\"password\" class=\"form-control\" placeholder=\"Enter password\" id=\"pwd\">\r\n                        </div>\r\n                        <div class=\"form-group form-check\">\r\n                          <label class=\"form-check-label\">\r\n                            Forgot password\r\n                          </label>\r\n                        </div>\r\n                        <a routerLink=\"/dashboard\" type=\"submit\" class=\"btn btn-primary\">Submit</a>\r\n                        <span>Not a member? Sign Up</span>\r\n                    </DIV>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n-->\r\n<section id=\"login_page\" style=\"height:100%\">\r\n    <div class=\"row no-gutters\" >\r\n        <div class=\"col-md-6 flex-column  text-white\" style=\"background-color: #3075bf;\">\r\n            <div class=\"left_col w-50 mt-5 align-self-center\" >\r\n               \r\n                <a class=\"navbar-brand logohead mb-5\" href=\"#\" >\r\n                    <img src=\"/assets/logo_white.png\" width=\"35\" height=\"35\" class=\"d-inline-block align-top\" alt=\"\">\r\n                    <span class=\"ml-2\" style=\"font-family:Montserrat\">Revenued</span>\r\n                </a>\r\n               \r\n                <h1>Business Card for this Generation.</h1>\r\n                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate?</p>\r\n                \r\n               \r\n           \r\n            </div>\r\n            <footer class=\"border-top w-50 align-self-center \">               \r\n                    <nav class=\"navbar navbar-expand-lg px-0 \">\r\n                          <ul class=\"navbar-nav text-uppercase\">                           \r\n                            <li class=\"nav-item\">\r\n                              <a class=\"nav-link\" href=\"#\">About Revenued</a>\r\n                            </li>\r\n                            <li class=\"nav-item\">\r\n                              <a class=\"nav-link\" href=\"#\">Contact us</a>\r\n                            </li>                            \r\n                          </ul>                       \r\n                      </nav>\r\n            </footer>\r\n           \r\n        </div>\r\n        <div class=\"col-md-6 justify-content-center\">\r\n            <div class=\"right_col w-50 \">\r\n                <div class=\"right_col_head\">\r\n                <h3>Welcome to <span class=\"text-primary\">Revenued</span></h3>\r\n                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae quod facilis pariatur dolorem vero?</p>\r\n                </div>\r\n                <form action=\"\" >\r\n                    <label for=\"email\" class=\"text-muted\">Email</label>\r\n                    <input type=\"text\" class=\"form-control p-0 mb-3\" placeholder=\"Enter Email ID\">\r\n                    <label for=\"password\">Password</label>\r\n                    <input type=\"password\" class=\"form-control p-0\" placeholder=\"Enter Password\">\r\n                    \r\n                </form> \r\n                 <p class=\"text-right\"><small><a href=\"#\">Forgot Password?</a></small></p>\r\n                 <div class=\"text-center\">\r\n                     <button type=\"button\" class=\"btn btn-warning btn-xl w-50 btn-center\" (click)=\"authService.login()\">Login</button>\r\n                     <p class=\"text-primary\"><small>Not a member? <a href=\"#\">Sign Up</a></small></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>";
     /***/
   },
 
@@ -756,6 +756,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _shared_login_login_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./shared/login/login.component */
     "./src/app/shared/login/login.component.ts");
+    /* harmony import */
+
+
+    var _callback_callback_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./callback/callback.component */
+    "./src/app/callback/callback.component.ts");
 
     var routes = [{
       path: '',
@@ -763,6 +769,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       path: 'login',
       component: _shared_login_login_component__WEBPACK_IMPORTED_MODULE_3__["LoginComponent"]
+    }, {
+      path: 'callback',
+      component: _callback_callback_component__WEBPACK_IMPORTED_MODULE_4__["CallbackComponent"]
     }, {
       path: 'dashboard',
       loadChildren: function loadChildren() {
@@ -897,38 +906,298 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./app-routing.module */
     "./src/app/app-routing.module.ts");
     /* harmony import */
 
 
-    var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
     /* harmony import */
 
 
-    var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _shared_shared_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./shared/shared.module */
     "./src/app/shared/shared.module.ts");
     /* harmony import */
 
 
-    var _core_core_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _core_core_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./core/core.component */
     "./src/app/core/core.component.ts");
+    /* harmony import */
+
+
+    var _callback_callback_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./callback/callback.component */
+    "./src/app/callback/callback.component.ts");
+    /* harmony import */
+
+
+    var _auth_auth_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./auth/auth.service */
+    "./src/app/auth/auth.service.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _core_core_component__WEBPACK_IMPORTED_MODULE_6__["CoreComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]],
-      providers: [],
-      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _core_core_component__WEBPACK_IMPORTED_MODULE_7__["CoreComponent"], _callback_callback_component__WEBPACK_IMPORTED_MODULE_8__["CallbackComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_6__["SharedModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]],
+      providers: [_auth_auth_service__WEBPACK_IMPORTED_MODULE_9__["AuthService"]],
+      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/auth/auth.service.ts":
+  /*!**************************************!*\
+    !*** ./src/app/auth/auth.service.ts ***!
+    \**************************************/
+
+  /*! exports provided: AuthService */
+
+  /***/
+  function srcAppAuthAuthServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AuthService", function () {
+      return AuthService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var auth0_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! auth0-js */
+    "./node_modules/auth0-js/dist/auth0.min.esm.js");
+    /* harmony import */
+
+
+    var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./../../environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    window.global = window;
+
+    var AuthService =
+    /*#__PURE__*/
+    function () {
+      function AuthService(router) {
+        _classCallCheck(this, AuthService);
+
+        this.router = router; // Create Auth0 web auth instance
+
+        this.auth0 = new auth0_js__WEBPACK_IMPORTED_MODULE_2__["WebAuth"]({
+          clientID: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.clientID,
+          domain: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.domain,
+          responseType: 'token',
+          redirectUri: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.redirect,
+          audience: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.audience,
+          scope: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.scope
+        });
+        this.getAccessToken();
+      }
+
+      _createClass(AuthService, [{
+        key: "login",
+        value: function login() {
+          // Auth0 authorize request
+          this.auth0.authorize();
+        }
+      }, {
+        key: "handleLoginCallback",
+        value: function handleLoginCallback() {
+          var _this = this;
+
+          // When Auth0 hash parsed, get profile
+          this.auth0.parseHash(function (err, authResult) {
+            if (authResult && authResult.accessToken) {
+              window.location.hash = '';
+
+              _this.getUserInfo(authResult);
+            } else if (err) {
+              console.error("Error: ".concat(err.error));
+            }
+
+            _this.router.navigate(['/dashboard']);
+          });
+        }
+      }, {
+        key: "getAccessToken",
+        value: function getAccessToken() {
+          var _this2 = this;
+
+          this.auth0.checkSession({}, function (err, authResult) {
+            if (authResult && authResult.accessToken) {
+              _this2.getUserInfo(authResult);
+            }
+          });
+        }
+      }, {
+        key: "getUserInfo",
+        value: function getUserInfo(authResult) {
+          var _this3 = this;
+
+          // Use access token to retrieve user's profile and set session
+          this.auth0.client.userInfo(authResult.accessToken, function (err, profile) {
+            if (profile) {
+              _this3._setSession(authResult, profile);
+            }
+          });
+        }
+      }, {
+        key: "_setSession",
+        value: function _setSession(authResult, profile) {
+          // Save authentication data and update login status subject
+          this.expiresAt = authResult.expiresIn * 1000 + Date.now();
+          this.accessToken = authResult.accessToken;
+          this.userProfile = profile;
+          console.log(this.accessToken);
+          console.log(this.userProfile);
+          this.authenticated = true;
+        }
+      }, {
+        key: "logout",
+        value: function logout() {
+          // Log out of Auth0 session
+          // Ensure that returnTo URL is specified in Auth0
+          // Application settings for Allowed Logout URLs
+          this.auth0.logout({
+            returnTo: 'http://localhost:4200',
+            clientID: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].auth.clientID
+          });
+        }
+      }, {
+        key: "isLoggedIn",
+        get: function get() {
+          // Check if current date is before token
+          // expiration and user is signed in locally
+          return Date.now() < this.expiresAt && this.authenticated;
+        }
+      }]);
+
+      return AuthService;
+    }();
+
+    AuthService.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+      }];
+    };
+
+    AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()], AuthService);
+    /***/
+  },
+
+  /***/
+  "./src/app/callback/callback.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/callback/callback.component.ts ***!
+    \************************************************/
+
+  /*! exports provided: CallbackComponent */
+
+  /***/
+  function srcAppCallbackCallbackComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CallbackComponent", function () {
+      return CallbackComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _auth_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../auth/auth.service */
+    "./src/app/auth/auth.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var CallbackComponent =
+    /*#__PURE__*/
+    function () {
+      function CallbackComponent(authService, router) {
+        _classCallCheck(this, CallbackComponent);
+
+        this.authService = authService;
+        this.router = router;
+      }
+
+      _createClass(CallbackComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          //this.authService.handleLoginCallback();
+          this.router.navigate(['/dashboard']);
+        }
+      }]);
+
+      return CallbackComponent;
+    }();
+
+    CallbackComponent.ctorParameters = function () {
+      return [{
+        type: _auth_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }];
+    };
+
+    CallbackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-callback',
+      template: "\n    <p>\n      Loading...\n    </p>\n  "
+    })], CallbackComponent);
     /***/
   },
 
@@ -1214,14 +1483,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function HeaderComponent(authService) {
-        var _this = this;
+        var _this4 = this;
 
         _classCallCheck(this, HeaderComponent);
 
         this.authService = authService;
         this.logInStatus = false;
         this.authService.loggedInEvent.subscribe(function (logInStatus) {
-          _this.logInStatus = logInStatus;
+          _this4.logInStatus = logInStatus;
         });
       }
 
@@ -1267,7 +1536,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "@import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat&display=swap');\r\n\r\n#login_page .row{\r\n  height: 100%;\r\n}\r\n\r\n#login_page .col-md-6{\r\n \r\n    display: -webkit-box;\r\n \r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n            justify-content: space-between;\r\n    display: flex;\r\n  \r\n  \r\n    \r\n}\r\n\r\n#login_page .left_col .logohead{\r\n \r\n  text-decoration: none;\r\n  color:white;\r\n  font-size:1.3rem;\r\n\r\n  \r\n}\r\n\r\n#login_page footer a{\r\n  text-decoration: none;\r\n  color:white;\r\n  font-size:0.7rem;\r\n}\r\n\r\n#login_page .right_col .right_col_head{\r\n  margin-top:25%;\r\n  margin-bottom:15%;\r\n}\r\n\r\ninput,\r\nselect.form-control {\r\n  background: transparent;\r\n  border: none;\r\n  border-bottom: 1px solid #dddddd;\r\n  box-shadow: none;\r\n  border-radius: 0;\r\n}\r\n\r\ninput:focus,\r\nselect.form-control:focus {\r\n  box-shadow: none;\r\n}\r\n\r\n#login_page .form-control{\r\n  height:2%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsdUZBQXVGOztBQUV2RjtFQUNFLFlBQVk7QUFDZDs7QUFDQTs7SUFFSSxvQkFBYTs7SUFBYixhQUFhO0lBQ2IseUJBQThCO1lBQTlCLDhCQUE4QjtJQUM5QixhQUFhOzs7O0FBSWpCOztBQUNBOztFQUVFLHFCQUFxQjtFQUNyQixXQUFXO0VBQ1gsZ0JBQWdCOzs7QUFHbEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsV0FBVztFQUNYLGdCQUFnQjtBQUNsQjs7QUFDQTtFQUNFLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7O0FBQ0E7O0VBRUUsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWixnQ0FBZ0M7RUFFaEMsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTs7RUFHRSxnQkFBZ0I7QUFDbEI7O0FBQ0E7RUFDRSxTQUFTO0FBQ1giLCJmaWxlIjoic3JjL2FwcC9zaGFyZWQvbG9naW4vbG9naW4uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0bzo5MDB8TW9udHNlcnJhdCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbiNsb2dpbl9wYWdlIC5yb3d7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbiNsb2dpbl9wYWdlIC5jb2wtbWQtNntcclxuIFxyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgXHJcbiAgXHJcbiAgICBcclxufVxyXG4jbG9naW5fcGFnZSAubGVmdF9jb2wgLmxvZ29oZWFke1xyXG4gXHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIGNvbG9yOndoaXRlO1xyXG4gIGZvbnQtc2l6ZToxLjNyZW07XHJcblxyXG4gIFxyXG59XHJcblxyXG4jbG9naW5fcGFnZSBmb290ZXIgYXtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY29sb3I6d2hpdGU7XHJcbiAgZm9udC1zaXplOjAuN3JlbTtcclxufVxyXG4jbG9naW5fcGFnZSAucmlnaHRfY29sIC5yaWdodF9jb2xfaGVhZHtcclxuICBtYXJnaW4tdG9wOjI1JTtcclxuICBtYXJnaW4tYm90dG9tOjE1JTtcclxufVxyXG5pbnB1dCxcclxuc2VsZWN0LmZvcm0tY29udHJvbCB7XHJcbiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XHJcbiAgYm9yZGVyOiBub25lO1xyXG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZGRkZGRkO1xyXG4gIC13ZWJraXQtYm94LXNoYWRvdzogbm9uZTtcclxuICBib3gtc2hhZG93OiBub25lO1xyXG4gIGJvcmRlci1yYWRpdXM6IDA7XHJcbn1cclxuXHJcbmlucHV0OmZvY3VzLFxyXG5zZWxlY3QuZm9ybS1jb250cm9sOmZvY3VzIHtcclxuICAtd2Via2l0LWJveC1zaGFkb3c6IG5vbmU7XHJcbiAgYm94LXNoYWRvdzogbm9uZTtcclxufVxyXG4jbG9naW5fcGFnZSAuZm9ybS1jb250cm9se1xyXG4gIGhlaWdodDoyJTtcclxufSJdfQ== */";
+    __webpack_exports__["default"] = "@import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat&display=swap');\r\n\r\n#login_page .row{\r\n  height: 100%;\r\n}\r\n\r\n#login_page .col-md-6{\r\n \r\n    display: -webkit-box;\r\n \r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n            justify-content: space-between;\r\n    display: flex;\r\n  \r\n  \r\n    \r\n}\r\n\r\n#login_page .left_col .logohead{\r\n \r\n  text-decoration: none;\r\n  color:white;\r\n  font-size:1.3rem;\r\n\r\n  \r\n}\r\n\r\n#login_page footer a{\r\n  text-decoration: none;\r\n  color:white;\r\n  font-size:0.7rem;\r\n}\r\n\r\n#login_page .right_col .right_col_head{\r\n  margin-top:25%;\r\n  margin-bottom:15%;\r\n}\r\n\r\ninput,\r\nselect.form-control {\r\n  background: transparent;\r\n  border: none;\r\n  border: 1px solid #dddddd;\r\n  \r\n  box-shadow: none;\r\n  border-radius: 0;\r\n}\r\n\r\ninput:focus,\r\nselect.form-control:focus {\r\n  box-shadow: none;\r\n}\r\n\r\n#login_page .form-control{\r\n  /* height:2%; */\r\n}\r\n\r\nh1{\r\n  font-family: Lato;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsdUZBQXVGOztBQUV2RjtFQUNFLFlBQVk7QUFDZDs7QUFDQTs7SUFFSSxvQkFBYTs7SUFBYixhQUFhO0lBQ2IseUJBQThCO1lBQTlCLDhCQUE4QjtJQUM5QixhQUFhOzs7O0FBSWpCOztBQUNBOztFQUVFLHFCQUFxQjtFQUNyQixXQUFXO0VBQ1gsZ0JBQWdCOzs7QUFHbEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsV0FBVztFQUNYLGdCQUFnQjtBQUNsQjs7QUFDQTtFQUNFLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7O0FBQ0E7O0VBRUUsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWix5QkFBeUI7O0VBR3pCLGdCQUFnQjtFQUNoQixnQkFBZ0I7QUFDbEI7O0FBRUE7O0VBR0UsZ0JBQWdCO0FBQ2xCOztBQUNBO0VBQ0UsZUFBZTtBQUNqQjs7QUFDQTtFQUNFLGlCQUFpQjtBQUNuQiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9sb2dpbi9sb2dpbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1MYXRvOjkwMHxNb250c2VycmF0JmRpc3BsYXk9c3dhcCcpO1xyXG5cclxuI2xvZ2luX3BhZ2UgLnJvd3tcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuI2xvZ2luX3BhZ2UgLmNvbC1tZC02e1xyXG4gXHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICBcclxuICBcclxuICAgIFxyXG59XHJcbiNsb2dpbl9wYWdlIC5sZWZ0X2NvbCAubG9nb2hlYWR7XHJcbiBcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY29sb3I6d2hpdGU7XHJcbiAgZm9udC1zaXplOjEuM3JlbTtcclxuXHJcbiAgXHJcbn1cclxuXHJcbiNsb2dpbl9wYWdlIGZvb3RlciBhe1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjp3aGl0ZTtcclxuICBmb250LXNpemU6MC43cmVtO1xyXG59XHJcbiNsb2dpbl9wYWdlIC5yaWdodF9jb2wgLnJpZ2h0X2NvbF9oZWFke1xyXG4gIG1hcmdpbi10b3A6MjUlO1xyXG4gIG1hcmdpbi1ib3R0b206MTUlO1xyXG59XHJcbmlucHV0LFxyXG5zZWxlY3QuZm9ybS1jb250cm9sIHtcclxuICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcclxuICBib3JkZXI6IG5vbmU7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgI2RkZGRkZDtcclxuICAtd2Via2l0LWJveC1zaGFkb3c6IG5vbmU7XHJcbiAgXHJcbiAgYm94LXNoYWRvdzogbm9uZTtcclxuICBib3JkZXItcmFkaXVzOiAwO1xyXG59XHJcblxyXG5pbnB1dDpmb2N1cyxcclxuc2VsZWN0LmZvcm0tY29udHJvbDpmb2N1cyB7XHJcbiAgLXdlYmtpdC1ib3gtc2hhZG93OiBub25lO1xyXG4gIGJveC1zaGFkb3c6IG5vbmU7XHJcbn1cclxuI2xvZ2luX3BhZ2UgLmZvcm0tY29udHJvbHtcclxuICAvKiBoZWlnaHQ6MiU7ICovXHJcbn1cclxuaDF7XHJcbiAgZm9udC1mYW1pbHk6IExhdG87XHJcbn0iXX0= */";
     /***/
   },
 
@@ -1311,9 +1580,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _core_authentication_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ../../core/authentication.service */
-    "./src/app/core/authentication.service.ts");
+    var src_app_auth_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/auth/auth.service */
+    "./src/app/auth/auth.service.ts");
 
     var LoginComponent =
     /*#__PURE__*/
@@ -1327,19 +1596,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       _createClass(LoginComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {
-          this.authService.loggedOut();
-        }
-      }, {
-        key: "gotoDashboard",
-        value: function gotoDashboard() {
-          this.router.navigate(["/dashboard"]);
-        }
-      }, {
-        key: "ngOnDestroy",
-        value: function ngOnDestroy() {
-          this.authService.loggedOut();
-        }
+        value: function ngOnInit() {}
       }]);
 
       return LoginComponent;
@@ -1347,7 +1604,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     LoginComponent.ctorParameters = function () {
       return [{
-        type: _core_authentication_service__WEBPACK_IMPORTED_MODULE_3__["AuthenticationService"]
+        type: src_app_auth_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"]
       }, {
         type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
       }];
@@ -1554,7 +1811,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     var environment = {
-      production: false
+      production: false,
+      auth: {
+        clientID: 'bUA6LKb71fnFfqkc5l6LxkTey0lRi9Ex',
+        domain: 'dev-l13h9rnv.auth0.com',
+        audience: 'https://dev-l13h9rnv.auth0.com/api/v2/',
+        redirect: 'http://isolveit.in/myapp/callback',
+        scope: 'openid profile email'
+      }
     };
     /*
      * For easier debugging in development mode, you can import the following file
