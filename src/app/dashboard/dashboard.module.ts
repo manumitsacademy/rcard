@@ -8,10 +8,12 @@ import { AccountsummaryComponent } from './accountsummary/accountsummary.compone
 import { MinistatementComponent } from './ministatement/ministatement.component';
 import { SharedModule } from '../shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
+import { DashboardhomeComponent } from './dashboardhome/dashboardhome.component';
+import { TransactionhistoryComponent } from './transactionhistory/transactionhistory.component';
 
 
 @NgModule({
-  declarations: [DashboardComponent, ShortcutsComponent, AccountsummaryComponent, MinistatementComponent],
+  declarations: [DashboardComponent, ShortcutsComponent, AccountsummaryComponent, MinistatementComponent, DashboardhomeComponent, TransactionhistoryComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,
