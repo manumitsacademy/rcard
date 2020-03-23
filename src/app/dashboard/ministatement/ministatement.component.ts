@@ -11,7 +11,7 @@ export class MinistatementComponent implements OnInit {
   constructor(public http:HttpClient) { }
   ministatement:any;
   ngOnInit() {
-    this.http.get("http://localhost:4200/assets/statement.xml",{  
+    this.http.get("/assets/statement.xml",{  
       headers: new HttpHeaders()  
         .set('Content-Type', 'text/xml')  
         .append('Access-Control-Allow-Methods', 'GET')  

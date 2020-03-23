@@ -1817,7 +1817,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         clientID: 'bUA6LKb71fnFfqkc5l6LxkTey0lRi9Ex',
         domain: 'dev-l13h9rnv.auth0.com',
         audience: 'https://dev-l13h9rnv.auth0.com/api/v2/',
-        redirect: 'http://localhost:8080/callback',
+        redirect: 'https://praveeng-1002.herokuapp.com/callback',
         scope: 'openid profile email'
       }
     };

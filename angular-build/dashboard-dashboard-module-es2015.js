@@ -10309,7 +10309,7 @@ let MinistatementComponent = class MinistatementComponent {
         this.http = http;
     }
     ngOnInit() {
-        this.http.get("http://localhost:4200/assets/statement.xml", {
+        this.http.get("/assets/statement.xml", {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]()
                 .set('Content-Type', 'text/xml')
                 .append('Access-Control-Allow-Methods', 'GET')

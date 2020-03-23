@@ -11709,7 +11709,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function ngOnInit() {
           var _this2 = this;
 
-          this.http.get("http://localhost:4200/assets/statement.xml", {
+          this.http.get("/assets/statement.xml", {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'text/xml').append('Access-Control-Allow-Methods', 'GET').append('Access-Control-Allow-Origin', '*').append('Access-Control-Allow-Headers', "Access-Control-Allow-Headers, Access-Control-Allow-Origin, Access-Control-Request-Method"),
             responseType: 'text'
           }).subscribe(function (res) {
