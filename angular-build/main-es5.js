@@ -1179,6 +1179,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "ngOnInit",
         value: function ngOnInit() {
           //this.authService.handleLoginCallback();
+          alert("HIHI");
           this.router.navigate(['/dashboard']);
         }
       }]);
@@ -1816,7 +1817,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         clientID: 'bUA6LKb71fnFfqkc5l6LxkTey0lRi9Ex',
         domain: 'dev-l13h9rnv.auth0.com',
         audience: 'https://dev-l13h9rnv.auth0.com/api/v2/',
-        redirect: 'https://praveen-1002.heroku.com:8080/callback',
+        redirect: 'http://localhost:8080/callback',
         scope: 'openid profile email'
       }
     };

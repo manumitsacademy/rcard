@@ -8,7 +8,7 @@ export const environment = {
     clientID: 'bUA6LKb71fnFfqkc5l6LxkTey0lRi9Ex',
     domain: 'dev-l13h9rnv.auth0.com', // e.g., https://you.auth0.com/
     audience: 'https://dev-l13h9rnv.auth0.com/api/v2/', // e.g., http://localhost:3001
-    redirect: 'https://praveen-1002.herokuapp.com/callback',
+    redirect: 'http://localhost:8080/callback',
     scope: 'openid profile email'
   }
 };

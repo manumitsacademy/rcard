@@ -17,6 +17,7 @@ export class CallbackComponent implements OnInit {
 
   ngOnInit() {
     //this.authService.handleLoginCallback();
+    alert("HIHI")
     this.router.navigate(['/dashboard'])
   }
 
