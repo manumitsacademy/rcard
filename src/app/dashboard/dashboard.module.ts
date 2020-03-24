@@ -10,6 +10,7 @@ import { SharedModule } from '../shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardhomeComponent } from './dashboardhome/dashboardhome.component';
 import { TransactionhistoryComponent } from './transactionhistory/transactionhistory.component';
+import { PopoverModule, BsDatepickerModule } from 'ngx-bootstrap';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import { TransactionhistoryComponent } from './transactionhistory/transactionhis
     CommonModule,
     DashboardRoutingModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    PopoverModule,
+    BsDatepickerModule
   ]
 })
 export class DashboardModule { }

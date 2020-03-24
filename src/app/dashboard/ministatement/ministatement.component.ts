@@ -22,7 +22,6 @@ export class MinistatementComponent implements OnInit {
       const parser = new xml2js.Parser({ strict: false, trim: true });
       parser.parseString(res, (err, result) => {
         this.ministatement = result['SOAP:ENVELOPE']['SOAP:BODY'][0]['PCBFGATEWAYGETAPPSTATUSRESPONSE'][0]['PCBFAPPSTATUS'];
-        console.log(this.ministatement)
       });
     })
   }
