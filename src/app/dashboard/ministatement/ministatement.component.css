@@ -10,3 +10,13 @@
     font-size: 16px;
     font-weight: bold;
 }
+.card1{
+    border: 1px solid #D9DEE4;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 0 0 rgba(7,40,67,0.25);
+}
+.table th{
+    border-top:none;
+    text-transform: uppercase;
+}

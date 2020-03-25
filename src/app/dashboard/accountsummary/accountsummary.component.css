@@ -7,15 +7,66 @@
         height: 19px;
         color: #1F74B1;
         font-family: Lato;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
         letter-spacing: 0;
         line-height: 19px;
 }
 .spending-l-imit {
-    width: 95px;
+    width: 100%;
     color: #90A2B1;
     font-family: Lato;
     font-size: 12px;
     font-weight: bold;
+    line-height: 15px;
+    margin-bottom:10%;
   }
+  .card1{
+    border: 1px solid #D9DEE4;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 0 0 rgba(7,40,67,0.25);
+   
+  }
+  .summaru-l H5{
+    line-height: 24px;
+    width:100%;
+  }
+  #ac_summary .verticalLine:after{
+   
+    content: "";
+    background-color:black;
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    top: 50%;
+    left: 83%;
+    display: block;
+    z-index:99;
+  }
+  @media (max-width: 576px) { 
+    .symbol{
+       display:none;
+    }
+    
+  }
+  @media (max-width:576px){
+    .verticalLine:after{
+      width:0px;
+    }
+  }
+  @media (max-width: 576px) { 
+    .card .card{
+       border:1px solid !important;
+       text-align:left;
+       padding-top:5px;
+       padding-bottom:5px;
+       padding-left:5px;
+       width:150px;
+
+    }
+    .card .card .spending-l-imit{
+      margin-bottom:0%;
+    }
+  }
+  
