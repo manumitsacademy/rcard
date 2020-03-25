@@ -3,42 +3,77 @@
 #login_page .row{
   height: 100%;
 }
-#login_page .col-md-6{
+#login_page .left_col{
  
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-  
-  
+    padding-left:25%;
+    width:80%;
+
     
+}
+#login_page .left_col h1{
+  font-size:2.7rem;
+  font-weight:900;
+  
+}
+#login_page .left_col .data{
+  font-size: 1rem;
+  color:#ffffff;
 }
 #login_page .left_col .logohead{
  
   text-decoration: none;
   color:white;
-  font-size:1.3rem;
+  
 
   
 }
-
-#login_page footer a{
-  text-decoration: none;
-  color:white;
-  font-size:0.7rem;
+#login_page .left_col .logohead span{
+  font-weight:600;
+  font-size: 26.67px;
+  
 }
+
+
 #login_page .right_col .right_col_head{
-  margin-top:25%;
+  margin-top:30%;
   margin-bottom:15%;
+}
+#login_page .right_col_head h3{
+  font-size:30px;
+  font-family: Lato;
+  font-weight:bold;
+}
+#login_page .right_col span{
+  color:  #2B73B0;
+}
+#login_page .right_col_head p{
+  font-size:1rem;
+  font-family: Lato;
+  color:#90A2B1;
+}
+#login_page .right_col{
+  width:55%;
+}
+#login_page .right_col label{
+  font-size:12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:  #90A2B1;
+  font-family: Lato;
+  height:5px;
 }
 input,
 select.form-control {
   background: transparent;
   border: none;
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
   -webkit-box-shadow: none;
-  
   box-shadow: none;
   border-radius: 0;
+  color:#072843;
+  font-size:16px;
+  font-weight:bold;
+  font-family: Lato;
 }
 
 input:focus,
@@ -46,9 +81,55 @@ select.form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#login_page .form-control{
-  /* height:2%; */
-}
+
 h1{
   font-family: Lato;
+}
+.left_maincol{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+footer {
+  margin-left:25%;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width:75%;
+  border-top: 1px solid #4B6377;
+}
+#login_page footer a{
+  text-decoration: none;
+  color:white;
+  font-size:12px;
+}
+.btn{
+  color:#FFFFFF;
+  font-size: 1rem;
+}
+@media (max-width: 576px) { 
+  .left_maincol{
+     display:none;
+  }
+}
+@media (max-width:576px){
+  .right_col{
+    width:85% !important;
+    
+  }
+}
+/*@media (max-width:576px){
+  .right_col_head{
+   
+    margin-top:20% !important;
+  }
+}*/
+@media (max-width:576px){
+  .btn{
+    color:#072843;
+    width:100% !important;
+  }
+}
+.fa-arrow-left{
+  color:#ce6b20;
+  font-size:1rem;
 }

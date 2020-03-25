@@ -25,26 +25,38 @@
 #short_cut nav{
     flex-wrap:nowrap;
 }
-#short_cut .nav-pills .nav-link{
+#short_cut .navbar .nav-link{
     color:white;
     font-size:1rem;
+    font-weight: 400;
+    padding-left:24px;
+    padding-right:24px;
+    
 }
-#short_cut .nav-pills .nav-link.active{
+#short_cut .navbar .nav-link.active{
     color:white;
-    font-weight:500;
-    background-color: rgb(255, 255, 255, 0.3);
+    font-weight:700;
+    background-color: rgb(255, 255, 255, 0.15);
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
 }
-#short_cut .nav-pills .nav-link:hover{
+#short_cut .navbar .nav-link:hover{
     color:white;
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.15);
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
+}
+#short_cut .navbar ul{
+    display:d-flex;
+    align-items:stretch;
+    justify-content:space-around;
+    width:100%;
+    margin:0;
+    padding:0;
 }
 #short_cut .nav-link{
     padding:0.5rem 0.5rem;
@@ -52,3 +64,21 @@
 *{
     font-family: Lato;
 }
+.fa-bell-o{
+    position: relative;
+    font-size:1.6rem;
+  }
+  .fa-circle{
+    position: absolute;
+    margin-left:-12px;
+    color:red;
+    font-size:0.8rem;
+  }
+  .short_mobile{
+    display:d-flex;
+    align-items:stretch;
+    justify-content:space-between;
+    width:100%;
+    margin:0;
+    padding:0;
+  }

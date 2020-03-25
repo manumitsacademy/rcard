@@ -47,50 +47,64 @@
 -->
 <section id="login_page" style="height:100%">
     <div class="row no-gutters" >
-        <div class="col-md-6 flex-column  text-white" style="background-color: #3075bf;">
-            <div class="left_col w-50 mt-5 align-self-center" >
+        <div class="col-md-6 left_maincol  text-white " style="background-color: #3075bf;">
+            <div class="left_col mt-5 " >
                
                 <a class="navbar-brand logohead mb-5" href="#" >
-                    <img src="/assets/logo_white.png" width="35" height="35" class="d-inline-block align-top" alt="">
-                    <span class="ml-2" style="font-family:Montserrat">Revenued</span>
+                    <img src="/assets/logo_white.png" width="35.3" height="40" class="d-inline-block align-top" alt="">
+                    <span class="ml-3 " style="font-family:Montserrat">Revenued</span>
                 </a>
                
                 <h1>Business Card for this Generation.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate?</p>
+                <p class="data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate?</p>
                 
                
            
             </div>
-            <footer class="border-top w-50 align-self-center ">               
-                    <nav class="navbar navbar-expand-lg px-0 ">
-                          <ul class="navbar-nav text-uppercase">                           
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">About Revenued</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Contact us</a>
-                            </li>                            
-                          </ul>                       
-                      </nav>
-            </footer>
+            <footer class=" align-self-end mr-auto" >
+               
+                <nav class="navbar navbar-expand-lg px-0 ">
+                    
+                    
+                  
+                      <ul class="navbar-nav text-uppercase">
+                       
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About Revenued</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                        
+                      </ul>
+                   
+                  </nav>
+           
+                </footer>
+          
            
         </div>
-        <div class="col-md-6 justify-content-center">
-            <div class="right_col w-50 ">
+        
+        <div class="col-md-6 d-flex justify-content-center right_maincol">
+            
+            <div class="right_col">
+                <!--<div class="back_arrow d-xl-none d-sm mt-3">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </div>-->
                 <div class="right_col_head">
-                <h3>Welcome to <span class="text-primary">Revenued</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae quod facilis pariatur dolorem vero?</p>
+                    <h3>Welcome to <span>Revenued</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae quod facilis pariatur dolorem vero?</p>
                 </div>
                 <form action="" >
-                    <label for="email" class="text-muted">Email</label>
+                    <label for="email">Email Address</label>
                     <input type="text" class="form-control p-0 mb-3" placeholder="Enter Email ID">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control p-0" placeholder="Enter Password">
+                    <input type="password" class="form-control p-0" placeholder="************">
                     
                 </form> 
                  <p class="text-right"><small><a href="#">Forgot Password?</a></small></p>
-                 <div class="text-center">
-                     <button type="button" class="btn btn-xl w-50 btn-center" (click)="authService.login()" style="background-color: #ce6b20;">Login</button>
+                 <div class="text-center ">
+                     <button type="button" class="btn btn-xl w-50 btn-center font-weight-bold" (click)="authService.login()" style="background-color: #ce6b20;">Login</button>
                 </div>
             </div>
         </div>
